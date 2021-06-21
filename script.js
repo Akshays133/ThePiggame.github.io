@@ -82,8 +82,8 @@ function nextPlayer(){
         document.querySelector('.player--0').classList.toggle('player--active');
         document.querySelector('.player--1').classList.toggle('player--active');
 
-        document.getElementById('dice1').style.display = 'none';
-        document.getElementById('dice2').style.display = 'none';
+        document.getElementById('dice1').style.display = 'block';
+        document.getElementById('dice2').style.display = 'block';
 };
 
 function init(){
